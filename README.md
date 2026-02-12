@@ -66,7 +66,7 @@ This application uses environment variables to manage sensitive configuration. *
 2. Edit `.env` and add your actual credentials:
    ```bash
    # MongoDB Configuration
-   MONGO_URL=mongodb://your-mongodb-url:27017
+   MONGO_URL=mongodb://localhost:27017
    DB_NAME=your_database_name
 
    # AI API Keys (Optional)

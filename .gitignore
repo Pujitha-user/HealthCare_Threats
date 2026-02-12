@@ -9,9 +9,5 @@ TEST_REPORT_FIXES.md
 project.zip
 
 # Environment variables
-!.env.example
-.env.local
-.env.*.local
 .env.*
-.env.production
-.env.development
+!.env.example
