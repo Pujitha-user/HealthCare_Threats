@@ -69,7 +69,7 @@ legal-aid-system/
 
 ---
 
-##  Setup Instructions
+## Setup Instructions
 
 ### Environment Configuration
 
