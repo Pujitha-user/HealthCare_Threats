@@ -24,7 +24,11 @@ function getCodeServerPassword() {
     // Match environment=PASSWORD="value"
     const match = conf.match(/PASSWORD="([^"]+)"/);
     return match ? match[1] : null;
-  } catch {
+  } catch (error) {
+    // Log helpful error message if config file is missing
+    if (error.code === 'ENOENT') {
+      console.warn('⚠️  Supervisor config file not found. Set SUPERVISOR_PASSWORD environment variable for authentication.');
+    }
     return null;
   }
 }

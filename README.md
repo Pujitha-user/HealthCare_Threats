@@ -91,8 +91,8 @@ This application uses environment variables to manage sensitive configuration. *
 |----------|----------|-------------|---------|
 | `MONGO_URL` | Yes | MongoDB connection string | `mongodb://localhost:27017` |
 | `DB_NAME` | Yes | Database name | `legal_aid_db` |
-| `OPENAI_API_KEY` | No | OpenAI API key for AI features | `sk-...` |
-| `GEMINI_API_KEY` | No | Google Gemini API key | `AIza...` |
+| `OPENAI_API_KEY` | No | OpenAI API key for AI features | `your-openai-key-here` |
+| `GEMINI_API_KEY` | No | Google Gemini API key | `your-gemini-key-here` |
 | `AI_API_URL` | No | Custom AI API endpoint | `https://api.example.com` |
 | `CORS_ORIGINS` | No | Allowed CORS origins (comma-separated) | `http://localhost:3000` |
 
